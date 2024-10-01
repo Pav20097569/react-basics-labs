@@ -88,8 +88,30 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+
 form {
   text-align: left;
   width: 50%;
   margin: auto;
 }
+
+select {
+  width: 60%; /* Same width as input fields */
+  padding: 12px 20px; /* Same padding as input fields */
+  margin: 8px 0; /* Same margin as input fields */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em; /* Adjust font size to match inputs */
+
+   /*Used chat Gpt to help me style the Priority Box*/
+
+}
+
+select:focus {
+  border-color: #4CAF50; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+
